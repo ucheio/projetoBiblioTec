@@ -1,3 +1,5 @@
+/* main */
+
 .conteudo {
     background-image: url(../imgs/banner-login.png);
 
@@ -11,6 +13,7 @@
 }
 
 /* área login */
+
 .login {
     display: flex;
     flex-direction: column;
@@ -26,12 +29,13 @@
     gap: 50px;
 }
 
-/* cabeçalho login */
+/* CABEÇALHO DO LOGIN */
+
 .login-cabecalho {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
     gap: 5px;
 }
 
@@ -39,7 +43,15 @@
     margin-bottom: 15px;
 }
 
-/* formulário */
+.login-cabecalho h1 {
+    font-size: 1.5em;
+}
+
+.login-cabecalho p {
+    font-size: 1em;
+}
+
+/* FORMULÁRIO */
 form {
     display: flex;
     flex-direction: column;
@@ -47,11 +59,10 @@ form {
     gap: 20px;
 }
 
-/* campos  */
-.compo {
+/* CAMPOS */
+.campo {
     display: flex;
     flex-direction: column;
-
     gap: 10px;
 }
 
@@ -82,7 +93,8 @@ form {
     font-style: italic;
 }
 
-/* campo senha */
+/* CAMPO SENHA */
+
 .campo-senha {
     position: relative;
 }
@@ -101,7 +113,7 @@ form {
     color: #00000050;
 }
 
-/* botao entrar */
+/* Botao entrar */
 
 .botao-entrar {
     width: 100%;
@@ -129,7 +141,7 @@ form {
     transform: translateY(-3px);
 }
 
-/* botão google */
+/* BOTAO GOOGLE */
 
 .botao-google {
     width: 100%;
@@ -144,9 +156,9 @@ form {
     font-size: 1.2em;
 
     display: flex;
-    justify-content: center;
     align-items: center;
-    
+    justify-content: center;
+
     gap: 20px;
 
     transition: transform 0.2s;
